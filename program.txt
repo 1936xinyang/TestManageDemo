@@ -2,3 +2,7 @@ Main()
 {
   print("Hello");
 }
+metro()
+{
+   print("Red");
+}

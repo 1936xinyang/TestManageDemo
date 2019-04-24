@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
+﻿using Eds.Core.Unity;
 using System.Web.Http;
-using Microsoft.Owin.Security.OAuth;
-using Newtonsoft.Json.Serialization;
 
 namespace WebApi
 {
@@ -16,6 +11,9 @@ namespace WebApi
             //// 将 Web API 配置为仅使用不记名令牌身份验证。
             //config.SuppressDefaultHostAuthentication();
             //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            //配置Unity依赖注入容器
+            config.DependencyResolver = new UnityResolver(UnityConfig.GetConfiguredContainer());
 
             // Web API 路由
             config.MapHttpAttributeRoutes();

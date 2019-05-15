@@ -1,5 +1,6 @@
-﻿using Eds.Core.Unity;
-using System.Web.Http;
+﻿using System.Web.Http;
+using System.Web.Http.Dependencies;
+using WebApi.Core.Unity;
 
 namespace WebApi
 {

@@ -11,6 +11,9 @@ E:\Project\WebApi\Eds.Core\bin\Debug\Eds.Core.dll
 E:\Project\WebApi\Eds.Core\bin\Debug\Eds.Core.pdb
 E:\Project\WebApi\Eds.Core\bin\Debug\System.Web.Http.dll
 E:\Project\WebApi\Eds.Core\bin\Debug\System.Net.Http.Formatting.dll
+E:\Project\WebApi\WebApi\Lib\Eds.Core.dll
+E:\Project\WebApi\WebApi\Lib\Eds.Core.pdb
+E:\Project\WebApi\Eds.Core\obj\Debug\Eds.Core.csprojAssemblyReference.cache
 E:\Project\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CoreCompileInputs.cache
 E:\Project\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CopyComplete
 E:\Project\WebApi\Eds.Core\obj\Debug\Eds.Core.dll

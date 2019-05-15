@@ -78,6 +78,12 @@
     <File Include="bin/Antlr3.Runtime.pdb">
       <publishTime>08/15/2017 14:00:17</publishTime>
     </File>
+    <File Include="bin/Eds.Core.dll">
+      <publishTime>05/15/2019 13:32:03</publishTime>
+    </File>
+    <File Include="bin/Eds.Core.pdb">
+      <publishTime>05/15/2019 13:32:03</publishTime>
+    </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>08/15/2017 14:00:21</publishTime>
     </File>
@@ -119,6 +125,9 @@
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
       <publishTime>08/15/2017 14:00:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>05/15/2015 11:23:17</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/15/2017 14:00:14</publishTime>
@@ -163,10 +172,10 @@
       <publishTime>08/15/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/WebApi.dll">
-      <publishTime>04/21/2019 19:29:33</publishTime>
+      <publishTime>05/15/2019 13:52:52</publishTime>
     </File>
     <File Include="bin/WebApi.pdb">
-      <publishTime>04/21/2019 19:29:33</publishTime>
+      <publishTime>05/15/2019 13:52:52</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/15/2017 14:00:18</publishTime>

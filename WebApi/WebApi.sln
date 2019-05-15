@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi.csproj", "{7008C761-3CD5-4876-8DF8-82789447DDAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.WebApi", "Eds.WebApi.csproj", "{7008C761-3CD5-4876-8DF8-82789447DDAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.Core", "..\Eds.Core\Eds.Core.csproj", "{3291A44E-C999-405B-8F90-BA82E06ABE76}"
 EndProject

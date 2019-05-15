@@ -1,5 +1,6 @@
 ﻿using System.Web.Http;
 using System.Web.Http.Dependencies;
+using WebApi.Core.Auth;
 using WebApi.Core.Unity;
 
 namespace WebApi
@@ -15,7 +16,8 @@ namespace WebApi
 
             //配置Unity依赖注入容器
             config.DependencyResolver = new UnityResolver(UnityConfig.GetConfiguredContainer());
-
+            //配置Basic基础认证
+            config.Filters.Add(new BasicAuthorizeAttribute());
             // Web API 路由
             config.MapHttpAttributeRoutes();
             //1.默认路由

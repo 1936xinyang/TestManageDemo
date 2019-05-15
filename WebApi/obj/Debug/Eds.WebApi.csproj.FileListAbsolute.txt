@@ -1,8 +1,11 @@
 E:\Project\WebApi\WebApi\bin\WebApi.dll.config
 E:\Project\WebApi\WebApi\bin\WebApi.dll
 E:\Project\WebApi\WebApi\bin\WebApi.pdb
+E:\Project\WebApi\WebApi\bin\Eds.Infrastructure.dll
 E:\Project\WebApi\WebApi\bin\Microsoft.Practices.Unity.dll
 E:\Project\WebApi\WebApi\bin\Newtonsoft.Json.dll
+E:\Project\WebApi\WebApi\bin\Eds.Infrastructure.pdb
+E:\Project\WebApi\WebApi\obj\Debug\Eds.WebApi.csprojAssemblyReference.cache
 E:\Project\WebApi\WebApi\obj\Debug\Eds.WebApi.csproj.CoreCompileInputs.cache
 E:\Project\WebApi\WebApi\obj\Debug\Eds.WebApi.csproj.CopyComplete
 E:\Project\WebApi\WebApi\obj\Debug\WebApi.dll

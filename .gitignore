@@ -1,1 +1,5 @@
 .vs
+/Eds.Infrastructure/obj/Debug
+/Eds.Infrastructure/obj/Release
+/WebApi/obj/Debug
+/WebApi/obj/Release

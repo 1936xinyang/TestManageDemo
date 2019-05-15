@@ -84,6 +84,12 @@
     <File Include="bin/Eds.Core.pdb">
       <publishTime>05/15/2019 13:32:03</publishTime>
     </File>
+    <File Include="bin/Eds.Infrastructure.dll">
+      <publishTime>05/15/2019 15:50:21</publishTime>
+    </File>
+    <File Include="bin/Eds.Infrastructure.pdb">
+      <publishTime>05/15/2019 15:50:21</publishTime>
+    </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>08/15/2017 14:00:21</publishTime>
     </File>
@@ -172,10 +178,10 @@
       <publishTime>08/15/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/WebApi.dll">
-      <publishTime>05/15/2019 13:52:52</publishTime>
+      <publishTime>05/15/2019 15:50:21</publishTime>
     </File>
     <File Include="bin/WebApi.pdb">
-      <publishTime>05/15/2019 13:52:52</publishTime>
+      <publishTime>05/15/2019 15:50:21</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/15/2017 14:00:18</publishTime>

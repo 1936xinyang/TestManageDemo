@@ -205,6 +205,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Core\Auth\BasicAuthorizeAttribute.cs" />
     <Compile Include="Core\Unity\UnityConfig.cs" />
     <Compile Include="Core\Unity\UnityResolver.cs" />
     <Compile Include="Global.asax.cs">
@@ -287,6 +288,12 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eds.Infrastructure\Eds.Infrastructure.csproj">
+      <Project>{bf014841-26fd-4a6c-86ab-1a2fe6bd51c8}</Project>
+      <Name>Eds.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

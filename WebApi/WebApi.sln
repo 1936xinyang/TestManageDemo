@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.WebApi", "Eds.WebApi.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.Core", "..\Eds.Core\Eds.Core.csproj", "{3291A44E-C999-405B-8F90-BA82E06ABE76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.Infrastructure", "..\Eds.Infrastructure\Eds.Infrastructure.csproj", "{BF014841-26FD-4A6C-86AB-1A2FE6BD51C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3291A44E-C999-405B-8F90-BA82E06ABE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3291A44E-C999-405B-8F90-BA82E06ABE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3291A44E-C999-405B-8F90-BA82E06ABE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF014841-26FD-4A6C-86AB-1A2FE6BD51C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF014841-26FD-4A6C-86AB-1A2FE6BD51C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF014841-26FD-4A6C-86AB-1A2FE6BD51C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF014841-26FD-4A6C-86AB-1A2FE6BD51C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

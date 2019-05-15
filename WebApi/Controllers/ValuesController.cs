@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebApi.Core.Auth;
 
 namespace WebApi.Controllers
 {
@@ -17,6 +18,7 @@ namespace WebApi.Controllers
         }
 
         // GET api/values/5
+        [BasicAuthorize]
         public string Get(int id)
         {
             return "value"+id;

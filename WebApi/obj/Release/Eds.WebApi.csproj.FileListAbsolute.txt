@@ -8,3 +8,5 @@ E:\Project\WebApi\WebApi\bin\WebApi.pdb
 E:\Project\WebApi\WebApi\bin\Microsoft.Practices.Unity.dll
 E:\Project\WebApi\WebApi\bin\Newtonsoft.Json.dll
 E:\Project\WebApi\WebApi\obj\Release\Eds.WebApi.csproj.CopyComplete
+E:\Project\WebApi\WebApi\bin\Eds.Infrastructure.dll
+E:\Project\WebApi\WebApi\bin\Eds.Infrastructure.pdb

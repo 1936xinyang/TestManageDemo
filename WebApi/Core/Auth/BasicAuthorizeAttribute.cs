@@ -4,8 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Security.Principal;
+using System.Text;
 using System.Threading;
 using System.Web;
+using System.Web.Http;
+using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
 namespace WebApi.Core.Auth
@@ -14,46 +19,72 @@ namespace WebApi.Core.Auth
     {
         public override void OnAuthorization(System.Web.Http.Controllers.HttpActionContext actionContext)
         {
-            //如果用户使用了forms authentication，就不必在做basic authentication了
-            if (Thread.CurrentPrincipal.Identity.IsAuthenticated)
+            if (actionContext.ActionDescriptor.GetCustomAttributes<AllowAnonymousAttribute>().Count > 0)
             {
+                base.OnAuthorization(actionContext);
                 return;
             }
 
-            var url = actionContext.Request.RequestUri.AbsoluteUri;      
-            var secretUrl = url.Split(new string[] { "key=" }, StringSplitOptions.RemoveEmptyEntries)[0].TrimEnd('&');
-            if (url.Contains('?'))
+            if (Thread.CurrentPrincipal != null && Thread.CurrentPrincipal.Identity.IsAuthenticated)
             {
-                var queryValue = url.Split('?')[1];
-                if (!string.IsNullOrEmpty(queryValue) && !string.IsNullOrEmpty(secretUrl))
-                {
-                    var key = "";
-                    var values = queryValue.Split('&');
-                    foreach (var item in values)
-                    {
-                        var keyValue = item.Split('=');
-                        if (keyValue[0] == "key")
-                        {
-                            key = keyValue[1];
-                            break;
-                        }
-                    }
-
-                    if (!string.IsNullOrEmpty(key) && key == EncryptUtil.GetEncryptKey(secretUrl))
-                    {
-                        return;
-                    }
-                }
+                base.OnAuthorization(actionContext);
+                return;
             }
 
+            string authParameter = null;
 
+            var authValue = actionContext.Request.Headers.Authorization;
+            if (authValue != null && authValue.Scheme == "Basic")
+            {
+                authParameter = authValue.Parameter;  //authparameter:获取请求中经过Base64编码的（用户：密码）
+            }
 
-            HandleUnauthorizedRequest(actionContext);
+            if (string.IsNullOrEmpty(authParameter))
+            {
+                Challenge(actionContext);
+                return;
+            }
+
+            authParameter = Encoding.Default.GetString(Convert.FromBase64String(authParameter));
+
+            var authToken = authParameter.Split(':');
+            if (authToken.Length < 2)
+            {
+                Challenge(actionContext);
+                return;
+            }
+
+            if (!ValidateUser(authToken[0], authToken[1]))
+            {
+                Challenge(actionContext);
+                return;
+            }
+
+            var principal = new GenericPrincipal(new GenericIdentity(authToken[0]), null);
+            Thread.CurrentPrincipal = principal;
+            if (HttpContext.Current != null)
+            {
+                HttpContext.Current.User = principal;
+            }
+
+            base.OnAuthorization(actionContext);
         }
 
-        private void HandleUnauthorizedRequest(System.Web.Http.Controllers.HttpActionContext actionContext)
+        private void Challenge(HttpActionContext actionContext)
         {
-            actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "访问未经授权！", "application/json");
+            var host = actionContext.Request.RequestUri.DnsSafeHost;
+            actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "请求未授权，拒绝访问。");
+            //actionContext.Response.Headers.Add("WWW-Authenticate", string.Format("Basic realm=\"{0}\"", host));//可以使用如下语句
+            actionContext.Response.Headers.WwwAuthenticate.Add(new AuthenticationHeaderValue("Basic", string.Format("realm=\"{0}\"", host)));
+        }
+
+        protected virtual bool ValidateUser(string userName, string password)
+        {
+            if (userName.Equals("admin", StringComparison.OrdinalIgnoreCase) && password.Equals("api.admin")) //判断用户名及密码，实际可从数据库查询验证,可重写
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -1,4 +1,8 @@
 .vs
+/Eds.Core/bin
+/Eds.Core/obj
+/Eds.Core.Tests/bin
+/Eds.Core.Tests/obj
 /Eds.Infrastructure/obj/Debug
 /Eds.Infrastructure/obj/Release
 /WebApi/obj/Debug

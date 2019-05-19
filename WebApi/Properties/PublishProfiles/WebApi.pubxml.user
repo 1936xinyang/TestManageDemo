@@ -84,11 +84,32 @@
     <File Include="bin/Eds.Core.pdb">
       <publishTime>05/15/2019 13:32:03</publishTime>
     </File>
+    <File Include="bin/Eds.Data.dll">
+      <publishTime>05/19/2019 12:21:23</publishTime>
+    </File>
+    <File Include="bin/Eds.Data.dll.config">
+      <publishTime>05/19/2019 12:16:57</publishTime>
+    </File>
+    <File Include="bin/Eds.Data.pdb">
+      <publishTime>05/19/2019 12:21:23</publishTime>
+    </File>
     <File Include="bin/Eds.Infrastructure.dll">
-      <publishTime>05/15/2019 15:50:21</publishTime>
+      <publishTime>05/19/2019 12:21:23</publishTime>
     </File>
     <File Include="bin/Eds.Infrastructure.pdb">
-      <publishTime>05/15/2019 15:50:21</publishTime>
+      <publishTime>05/19/2019 12:21:23</publishTime>
+    </File>
+    <File Include="bin/Eds.IRepository.dll">
+      <publishTime>05/19/2019 12:21:23</publishTime>
+    </File>
+    <File Include="bin/Eds.IRepository.pdb">
+      <publishTime>05/19/2019 12:21:23</publishTime>
+    </File>
+    <File Include="bin/Eds.Repository.dll">
+      <publishTime>05/19/2019 12:21:23</publishTime>
+    </File>
+    <File Include="bin/Eds.Repository.pdb">
+      <publishTime>05/19/2019 12:21:23</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>08/15/2017 14:00:21</publishTime>
@@ -178,10 +199,10 @@
       <publishTime>08/15/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/WebApi.dll">
-      <publishTime>05/15/2019 15:50:21</publishTime>
+      <publishTime>05/19/2019 12:21:25</publishTime>
     </File>
     <File Include="bin/WebApi.pdb">
-      <publishTime>05/15/2019 15:50:21</publishTime>
+      <publishTime>05/19/2019 12:21:25</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/15/2017 14:00:18</publishTime>
@@ -340,7 +361,7 @@
       <publishTime>08/15/2017 14:00:04</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/20/2019 16:13:22</publishTime>
+      <publishTime>05/19/2019 12:21:26</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -1,0 +1,14 @@
+E:\Project\WebApi\Eds.Data\bin\Debug\Eds.Data.dll.config
+E:\Project\WebApi\Eds.Data\bin\Debug\Eds.Data.dll
+E:\Project\WebApi\Eds.Data\bin\Debug\Eds.Data.pdb
+E:\Project\WebApi\Eds.Data\bin\Debug\EntityFramework.dll
+E:\Project\WebApi\Eds.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\WebApi\Eds.Data\bin\Debug\EntityFramework.xml
+E:\Project\WebApi\Eds.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\WebApi\Eds.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Project\WebApi\Eds.Data\obj\Debug\Eds.Data.csprojAssemblyReference.cache
+E:\Project\WebApi\Eds.Data\obj\Debug\Eds.Data.csproj.CoreCompileInputs.cache
+E:\Project\WebApi\Eds.Data\obj\Debug\Eds.Data.csproj.CopyComplete
+E:\Project\WebApi\Eds.Data\obj\Debug\Eds.Data.dll
+E:\Project\WebApi\Eds.Data\obj\Debug\Eds.Data.pdb
+E:\Project\WebApi\Eds.Data\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

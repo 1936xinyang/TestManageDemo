@@ -1,4 +1,6 @@
-﻿using Microsoft.Practices.Unity;
+﻿using Eds.IRepository;
+using Eds.Repository;
+using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,7 @@ namespace WebApi.Core.Unity
             // container.LoadConfiguration();
 
             #region IProxy
-            //container.RegisterType<IContractRepository, ContractRepository>();
+            container.RegisterType<IRoleRepository, RoleRepository>();
 
             #endregion
 

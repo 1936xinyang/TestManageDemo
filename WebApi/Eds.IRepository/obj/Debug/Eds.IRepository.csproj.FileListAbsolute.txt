@@ -1,0 +1,13 @@
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.IRepository.dll
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.IRepository.pdb
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.Data.dll
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\EntityFramework.dll
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.Data.pdb
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.Data.dll.config
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\EntityFramework.xml
+E:\Project\WebApi\WebApi\Eds.IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csprojAssemblyReference.cache
+E:\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csproj.CoreCompileInputs.cache
+E:\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csproj.CopyComplete
+E:\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.dll
+E:\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.pdb

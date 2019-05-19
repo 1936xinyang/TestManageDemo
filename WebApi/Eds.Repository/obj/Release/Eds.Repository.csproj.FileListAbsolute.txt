@@ -1,0 +1,15 @@
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.Repository.dll
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.Repository.pdb
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.Data.dll
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.IRepository.dll
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\EntityFramework.dll
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.Data.pdb
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.Data.dll.config
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\Eds.IRepository.pdb
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\EntityFramework.xml
+E:\Project\WebApi\WebApi\Eds.Repository\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\Project\WebApi\WebApi\Eds.Repository\obj\Release\Eds.Repository.csprojAssemblyReference.cache
+E:\Project\WebApi\WebApi\Eds.Repository\obj\Release\Eds.Repository.csproj.CoreCompileInputs.cache
+E:\Project\WebApi\WebApi\Eds.Repository\obj\Release\Eds.Repository.csproj.CopyComplete
+E:\Project\WebApi\WebApi\Eds.Repository\obj\Release\Eds.Repository.dll
+E:\Project\WebApi\WebApi\Eds.Repository\obj\Release\Eds.Repository.pdb

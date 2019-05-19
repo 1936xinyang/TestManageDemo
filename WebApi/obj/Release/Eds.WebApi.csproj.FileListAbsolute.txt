@@ -10,3 +10,10 @@ E:\Project\WebApi\WebApi\bin\Newtonsoft.Json.dll
 E:\Project\WebApi\WebApi\obj\Release\Eds.WebApi.csproj.CopyComplete
 E:\Project\WebApi\WebApi\bin\Eds.Infrastructure.dll
 E:\Project\WebApi\WebApi\bin\Eds.Infrastructure.pdb
+E:\Project\WebApi\WebApi\bin\Eds.Data.dll
+E:\Project\WebApi\WebApi\bin\Eds.IRepository.dll
+E:\Project\WebApi\WebApi\bin\Eds.Repository.dll
+E:\Project\WebApi\WebApi\bin\Eds.Data.pdb
+E:\Project\WebApi\WebApi\bin\Eds.Data.dll.config
+E:\Project\WebApi\WebApi\bin\Eds.IRepository.pdb
+E:\Project\WebApi\WebApi\bin\Eds.Repository.pdb

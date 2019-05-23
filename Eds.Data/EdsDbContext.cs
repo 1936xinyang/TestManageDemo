@@ -10,6 +10,7 @@ namespace Eds.Data
         public EdsDbContext()
             : base("name=EdsDbConn")
         {
+            //如果当前实体中包含另一个实体的list成员，而这个成员为空的话，在json序列化的时候就会报错
             this.Configuration.LazyLoadingEnabled = false;
             this.Configuration.ProxyCreationEnabled = false;
         }

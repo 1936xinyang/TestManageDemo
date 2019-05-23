@@ -48,5 +48,80 @@ namespace Eds.Repository
             }
             return roleList;
         }
+
+        public int? AddRole(Role role)
+        {
+            int? result = 0;
+            EdsDbContext db = new EdsDbContext();
+            try
+            {
+                db.Roles.Add(role);
+                db.SaveChanges();
+
+            }
+            catch (Exception ex)
+            {
+                //LogHelper.Error(ex.ToString());
+                result = null;
+            }
+            finally
+            {
+                db.Dispose();
+            }
+            return result;
+        }
+
+        public int? UpdateRole(Role role)
+        {
+            int? result = 0;
+            EdsDbContext db = new EdsDbContext();
+            try
+            {
+
+                var oldRole = db.Roles.FirstOrDefault(u => u.ID ==role.ID);
+                if (oldRole != null)
+                {
+                    oldRole.RoleName = role.RoleName;
+                    oldRole.RoleDesc = role.RoleDesc;
+                    db.SaveChanges();
+                }                
+            }
+            catch (Exception ex)
+            {
+                //LogHelper.Error(ex.ToString());
+                result = null;
+            }
+            finally
+            {
+                db.Dispose();
+            }
+            return result;
+        }
+
+        public int? DeleteRole(int id)
+        {
+            int? result = 0;
+            EdsDbContext db = new EdsDbContext();
+            try
+            {
+
+                var oldRole = db.Roles.FirstOrDefault(u => u.ID == id);
+                if (oldRole != null)
+                {
+                    db.Roles.Remove(oldRole);
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                //LogHelper.Error(ex.ToString());
+                result = null;
+            }
+            finally
+            {
+                db.Dispose();
+            }
+            return result;
+        }
     }
 }

@@ -10,3 +10,17 @@ E:\Project\WebApi\Eds.Data\obj\Release\Eds.Data.csproj.CoreCompileInputs.cache
 E:\Project\WebApi\Eds.Data\obj\Release\Eds.Data.csproj.CopyComplete
 E:\Project\WebApi\Eds.Data\obj\Release\Eds.Data.dll
 E:\Project\WebApi\Eds.Data\obj\Release\Eds.Data.pdb
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\Eds.Data.dll.config
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\Eds.Data.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\Eds.Data.pdb
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\EntityFramework.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\EntityFramework.SqlServer.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\EntityFramework.xml
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\EntityFramework.SqlServer.xml
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Release\Eds.Data.csprojAssemblyReference.cache
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Release\Eds.Data.csproj.CoreCompileInputs.cache
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Release\Eds.Data.csproj.CopyComplete
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Release\Eds.Data.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Release\Eds.Data.pdb

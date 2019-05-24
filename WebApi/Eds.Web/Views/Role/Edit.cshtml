@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        @model Eds.Data.Role
+    </div>
+    <div>
+
+        <h2>Edit</h2>
+
+        @using (Html.BeginForm())
+        {
+
+            @Html.HiddenFor(model => model.ID)
+
+            <div>
+
+                @Html.LabelFor(model => model.RoleName)
+
+                @Html.EditorFor(model => model.RoleName)
+
+            </div>
+
+            <div>
+
+                @Html.LabelFor(model => model.RoleDesc)
+
+                @Html.EditorFor(model => model.RoleDesc)
+
+            </div>
+
+            <div>
+
+                <input type="submit" value="Save" />
+
+            </div>
+
+        }
+
+        <div>@Html.ActionLink("Back to List", "Index")</div>
+
+    </div>
+
+</body>
+</html>

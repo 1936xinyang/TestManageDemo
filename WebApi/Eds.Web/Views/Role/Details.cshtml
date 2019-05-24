@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        @model Eds.Data.Role
+    </div>
+    <dl>
+        <dt>@Html.DisplayNameFor(model => model.ID)</dt>
+        <dd>@Html.DisplayFor(model => model.ID)</dd>
+        <dt>@Html.DisplayNameFor(model => model.RoleName)</dt>
+        <dd>@Html.DisplayFor(model => model.RoleName)</dd>
+        <dt>@Html.DisplayNameFor(model => model.UserRoles)</dt>
+        <dd>
+            <table>
+                <tr>
+                    <th>RoleName</th>
+                    <th>RoleDesc</th>
+                </tr>
+                @foreach (var item in Model.UserRoles)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.UserID)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ID)</td>
+                    </tr>
+                }
+            </table>
+        </dd>
+    </dl>
+</body>
+</html>

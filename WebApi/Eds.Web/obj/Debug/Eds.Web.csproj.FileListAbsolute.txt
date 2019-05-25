@@ -85,7 +85,6 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\System.Web.WebPages.Deploy
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\System.Web.WebPages.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\System.Web.WebPages.Razor.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\WebGrease.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\Owin.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\Eds.Data.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\Eds.Data.dll.config
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\Eds.Common.pdb
@@ -124,3 +123,5 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\EntityFramework.SqlServer.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\EntityFramework.SqlServer.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web\bin\Microsoft.Owin.Security.OAuth.dll

@@ -60,6 +60,7 @@ namespace WebApi.Core.Auth
                 return;
             }
 
+            //设置主体
             var principal = new GenericPrincipal(new GenericIdentity(authToken[0]), null);
             Thread.CurrentPrincipal = principal;
             if (HttpContext.Current != null)

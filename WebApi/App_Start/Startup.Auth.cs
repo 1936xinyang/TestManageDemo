@@ -35,7 +35,9 @@ namespace WebApi
             PublicClientId = "self";
             OAuthOptions = new OAuthAuthorizationServerOptions
             {
+                //向授权服务器终结点的 URL 路径。 是一个 URL，该应用使用来获取持有者令牌。
                 TokenEndpointPath = new PathString("/Token"),
+                //指定的提供程序插入到 OWIN 中间件，并处理由中间件引发的事件。
                 Provider = new ApplicationOAuthProvider(PublicClientId),
                 AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
@@ -55,9 +57,9 @@ namespace WebApi
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //    appId: "",
-            //    appSecret: "");
+   //         app.UseFacebookAuthentication(
+   //             appId: "426f62526f636b73",
+   //appSecret: "57686f6120447564652c2049495320526f636b73");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

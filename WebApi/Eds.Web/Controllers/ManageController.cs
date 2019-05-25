@@ -10,7 +10,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 
-namespace FirstMVCDemo.Controllers
+namespace Eds.Web.Controllers
 {
     [Authorize]
     public class ManageController : Controller

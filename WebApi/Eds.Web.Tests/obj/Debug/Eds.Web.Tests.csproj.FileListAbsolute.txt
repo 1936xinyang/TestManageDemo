@@ -20,8 +20,6 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.Web
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.WebPages.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.Optimization.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\log4net.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Common.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Web.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Web.dll.config
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -34,7 +32,6 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.Web
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\System.Web.Optimization.xml
-E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Common.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
@@ -59,3 +56,10 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Microsoft.Owin
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Microsoft.Owin.Security.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\EntityFramework.xml
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Data.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\PagedList.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Data.pdb
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Data.dll.config
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\PagedList.xml
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll

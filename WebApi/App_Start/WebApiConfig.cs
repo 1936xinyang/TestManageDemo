@@ -9,15 +9,21 @@ namespace WebApi
     {
         public static void Register(HttpConfiguration config)
         {
-            //// Web API 配置和服务
-            //// 将 Web API 配置为仅使用不记名令牌身份验证。
+            // Web API 配置和服务
+            /*
+             将 Web API 配置为仅使用不记名令牌身份验证。
+             SuppressDefaultHostAuthentication方法告知 Web API 忽略在请求到达 Web API 管道，IIS 或 OWIN 中间件之前发生的任何身份验证。 这样一来，我们可以限制只使用持有者令牌进行身份验证的 Web API
+             */
             //config.SuppressDefaultHostAuthentication();
             //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
-            //配置Unity依赖注入容器
-            config.DependencyResolver = new UnityResolver(UnityConfig.GetConfiguredContainer());
             //配置Basic基础认证
             //config.Filters.Add(new BasicAuthorizeAttribute());
+
+            //配置Unity依赖注入容器
+            config.DependencyResolver = new UnityResolver(UnityConfig.GetConfiguredContainer());
+
+
             // Web API 路由
             config.MapHttpAttributeRoutes();
             //1.默认路由

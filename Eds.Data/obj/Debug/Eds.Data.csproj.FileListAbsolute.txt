@@ -21,8 +21,8 @@ E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Debug\EntityFramework.xml
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Debug\EntityFramework.SqlServer.xml
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Debug\Eds.Data.csprojAssemblyReference.cache
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Debug\Eds.Data.csproj.CoreCompileInputs.cache
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Debug\Eds.Data.csproj.CopyComplete
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Debug\Eds.Data.dll
 E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Debug\Eds.Data.pdb
-E:\Net+\设计模式\WebApi\WebApi\Eds.Data\obj\Debug\Eds.Data.csprojAssemblyReference.cache

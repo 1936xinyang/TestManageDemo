@@ -1,6 +1,6 @@
 E:\Net+\设计模式\WebApi\WebApi\Eds.Model\bin\Debug\Eds.Common.dll
 E:\Net+\设计模式\WebApi\WebApi\Eds.Model\bin\Debug\Eds.Common.pdb
+E:\Net+\设计模式\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.csprojAssemblyReference.cache
 E:\Net+\设计模式\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.csproj.CoreCompileInputs.cache
 E:\Net+\设计模式\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.dll
 E:\Net+\设计模式\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.pdb
-E:\Net+\设计模式\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.csprojAssemblyReference.cache

@@ -42,13 +42,9 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\Eds.IRepository.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\Eds.Repository.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\EntityFramework.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\EntityFramework.SqlServer.xml
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Web.Http.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Web.Http.Cors.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\zh-Hans\EntityFramework.resources.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\zh-Hans\System.Web.Http.resources.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\Eds.WebApi.csprojAssemblyReference.cache
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\Eds.WebApi.csproj.CoreCompileInputs.cache
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\Eds.WebApi.csproj.CopyComplete

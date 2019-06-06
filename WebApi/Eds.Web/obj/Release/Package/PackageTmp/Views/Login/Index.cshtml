@@ -1,0 +1,89 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="shortcut icon" href="@Url.Content("~/Content/images/favicon.ico")" type="image/x-icon" />
+    <link rel="BookMark" href="@Url.Content("~/Content/images/favicon.ico")" type="image/x-icon" />
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../../Scripts/common.js"></script>
+
+    <link href="../../Content/loginreset.css" rel="stylesheet" type="text/css">
+    <link href="../../Content/login.css" rel="stylesheet" />
+    <link href="../../Content/sweetalert/sweetalert.css" rel="stylesheet" />
+    <script src="../../Content/sweetalert/sweetalert.min.js"></script>
+    <script src="../../Scripts/morcs/login.js"></script>
+    <title>EDS v1.0</title>
+</head>
+<body>
+    <form>
+        <input name="isLogin" type="hidden"
+               value="true">
+        <input name="returnUrl" type="hidden" value="http://flynet2.ceair.com:7011/portal/common/index.do?flag=1448872034224">
+        <input name="flag" id="flag" type="hidden">
+        <div class="login_show"></div>
+        <div class="login_body">
+            <div class="login_header">&nbsp;</div>
+            <div class="login_content">
+                <div class="login_box">
+                    <div class="login_lang">
+                        <div class="login_lang_in">
+                            <a href="http://fn-sso.ceair.com:7010/sso/sso-login.do" target="_blank">忘记密码? 密码被锁?</a>
+                        </div>
+                    </div>
+                    <div id="loginTab">
+                        <div class="login_input">
+                            <div class="user">
+                                <input name="userCode" id="userCode" type="text" autocomplete="off" />
+                            </div>
+                            <div class="password">
+                                <input name="password" id="password" style="font-size: 10px;"
+                                       type="password" maxlength="16" autocomplete="off">
+                            </div>
+                            <div class="code">
+                                <input name="inputCheckCode" id="inputCheckCode" maxlength="4">
+                                <a title="看不清,点击换一张" href="javascript:Getimgsrc();">
+                                    <img id="Verify" style="cursor: pointer;" src="/Login/GetValidateCode" alt="验证码" />
+                                </a>
+                            </div>
+                            <div class="error">
+                                <h5>&nbsp;</h5>
+                            </div>
+                            <input name="btnLogin" class="login_btn" onclick="onLogin()" type="button" value="登 录">
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                    <div class="login_new" style="visibility: hidden;">
+                        <div class="login_pic">
+                            <img width="130" height="86" src="../../Content/images/temp.jpg">
+                        </div>
+                        <div class="login_w">
+                            <a href="http://fn-sso.ceair.com:7010/sso/sso-login.do?returnUrl=http://flynet2.ceair.com:7011/portal/common/index.do?flag=1448872034224#">
+                                【团队建设】"飞扬的青春
+                                "第二季。载着飞扬的青春，载着我们的梦，飞向未来！
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login_footer">
+            为了您能完全正常使用本系统功能，建议使用IE 9.0以上版本浏览器，1280*800以上屏幕分辨率！
+            <!--
+               <a href="http://fn-fs.ceair.com/cms/IE8-WindowsXP-x86-CHS.exe" title="IE8(32位)下载">点击下载IE8(32位)</a>
+            -->
+            <a title="IE10(32位)下载" href="http://fn-fs.ceair.com/cms/IE10-Windows6.1-x86-zh-cn.exe">点击下载IE10(32位)</a>
+            <a title="IE10(64位)下载" href="http://fn-fs.ceair.com/cms/IE10-Windows6.1-x64-zh-cn.exe">点击下载IE10(64位)</a>
+            <br>
+            <br>
+            中国东方航空股份有限公司 版权所有 ©
+            2015&nbsp;&nbsp;报修电话：021-22331777
+        </div>
+    </form>
+</body>
+</html>

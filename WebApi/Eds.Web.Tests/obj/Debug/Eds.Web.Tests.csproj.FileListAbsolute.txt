@@ -63,3 +63,6 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Data.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Eds.Data.dll.config
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\PagedList.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\WebGrease.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\Eds.Web.Tests\bin\Debug\Antlr3.Runtime.pdb

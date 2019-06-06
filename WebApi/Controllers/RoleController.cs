@@ -3,9 +3,11 @@ using Eds.IRepository;
 using Microsoft.Practices.Unity;
 using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace WebApi.Controllers
 {
+    [EnableCors(origins: "http://localhost", headers: "*", methods: "*")]
     [RoutePrefix("api/Role")]
     public class RoleController : ApiController
     {

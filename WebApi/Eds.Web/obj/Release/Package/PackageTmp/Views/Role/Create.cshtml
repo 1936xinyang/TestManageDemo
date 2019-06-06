@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+
+</head>
+
+<body>
+    <div>
+        @model Eds.Data.Role
+    </div>
+    <div>
+        <h2>Create</h2>
+        @using (Html.BeginForm())
+        {
+            <div>
+                @Html.LabelFor(model => model.ID)
+                @Html.EditorFor(model => model.ID)
+            </div>
+            <div>
+                @Html.LabelFor(model => model.RoleName)
+                @Html.EditorFor(model => model.RoleName)
+            </div>
+            <div>
+                @Html.LabelFor(model => model.RoleDesc)
+                @Html.PasswordFor(model => model.RoleDesc)
+            </div>
+            <div>
+                <input type="submit" value="Create" />
+            </div>
+        }
+        <div>@Html.ActionLink("Back to List", "Index")</div>
+    </div>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-﻿using Eds.Web;
+﻿using Eds.Web.DAL;
 using Eds.Web.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;

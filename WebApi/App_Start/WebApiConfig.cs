@@ -1,6 +1,5 @@
 ﻿using System.Web.Http;
-using System.Web.Http.Dependencies;
-using WebApi.Core.Auth;
+using WebApi.Core.CallBack;
 using WebApi.Core.Unity;
 
 namespace WebApi
@@ -20,9 +19,12 @@ namespace WebApi
             //配置Basic基础认证
             //config.Filters.Add(new BasicAuthorizeAttribute());
 
+            config.Filters.Add(new JsonCallbackAttribute());
             //配置Unity依赖注入容器
             config.DependencyResolver = new UnityResolver(UnityConfig.GetConfiguredContainer());
 
+            //启用 CORS
+            config.EnableCors();
 
             // Web API 路由
             config.MapHttpAttributeRoutes();

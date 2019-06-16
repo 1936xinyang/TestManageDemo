@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.Common", "..\Eds.Model\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eds.Core.Tests", "..\Eds.Core.Tests\Eds.Core.Tests.csproj", "{725D363B-DC42-4FAE-996F-F5A247720BC0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eds.WebApi.Tests", "..\Eds.WebApi.Tests\Eds.WebApi.Tests.csproj", "{0B3DAD7E-D2A3-4CE1-9651-BFA39C86B3F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{725D363B-DC42-4FAE-996F-F5A247720BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{725D363B-DC42-4FAE-996F-F5A247720BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{725D363B-DC42-4FAE-996F-F5A247720BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3DAD7E-D2A3-4CE1-9651-BFA39C86B3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3DAD7E-D2A3-4CE1-9651-BFA39C86B3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3DAD7E-D2A3-4CE1-9651-BFA39C86B3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3DAD7E-D2A3-4CE1-9651-BFA39C86B3F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

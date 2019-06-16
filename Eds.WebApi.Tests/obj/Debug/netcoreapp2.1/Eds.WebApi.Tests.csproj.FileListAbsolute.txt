@@ -1,0 +1,16 @@
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.csproj.CoreCompileInputs.cache
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.AssemblyInfoInputs.cache
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.AssemblyInfo.cs
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\Eds.WebApi.Tests.deps.json
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\Eds.WebApi.Tests.runtimeconfig.json
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\Eds.WebApi.Tests.runtimeconfig.dev.json
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\Eds.WebApi.Tests.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\Eds.WebApi.Tests.pdb
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\bin\Debug\netcoreapp2.1\System.Net.Http.Formatting.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.csprojAssemblyReference.cache
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.csproj.CopyComplete
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.dll
+E:\Net+\设计模式\WebApi\WebApi\Eds.WebApi.Tests\obj\Debug\netcoreapp2.1\Eds.WebApi.Tests.pdb

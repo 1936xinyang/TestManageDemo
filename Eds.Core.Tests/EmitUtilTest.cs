@@ -14,7 +14,7 @@ namespace Eds.Core.Tests
             UserInfo user = new UserInfo() {ID= 1,UserName="Martin", Age=30};
             object oo = user;
             PropertyInfo p = user.GetType().GetProperty("UserName");
-            object o = EmitUtil.GetPropertyGetter(p).Invoke(oo);
+            //object o = EmitUtil.GetPropertyGetter(p).Invoke(oo);
         }
 
         private class UserInfo

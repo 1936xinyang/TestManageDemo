@@ -1,0 +1,14 @@
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.deps.json
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.json
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.dev.json
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.dll
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.pdb
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csprojAssemblyReference.cache
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CoreCompileInputs.cache
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfoInputs.cache
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfo.cs
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.dll
+E:\Net+\设计模式\WebApi\WebApi\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.pdb

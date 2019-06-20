@@ -50,3 +50,4 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\Eds.WebApi.csproj.CoreCompil
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\Eds.WebApi.csproj.CopyComplete
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\WebApi.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Debug\WebApi.pdb
+E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\log4net.dll

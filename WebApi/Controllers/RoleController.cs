@@ -1,7 +1,10 @@
 ﻿using Eds.Data;
+using Eds.Infrastructure.Logging;
 using Eds.IRepository;
 using Microsoft.Practices.Unity;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
@@ -17,7 +20,8 @@ namespace WebApi.Controllers
         [Route("Roles")]
         public List<Role> GetRoles()
         {
-            return roleRepository.GetRoles(); ;
+            LogHelper.Info("RoleController TestLog");
+            return roleRepository.GetRoles();
         }
 
         // GET: api/Role/5
@@ -48,6 +52,21 @@ namespace WebApi.Controllers
         {
             int? result = roleRepository.DeleteRole(id);
             return result;
+        }
+        [Route("Testlog")]
+        public string GetTestlog()
+        {
+            string tmp = null;
+            try
+            {
+                List<string> list = null;
+                tmp = list.First();
+            }
+            catch (Exception ex)
+            {
+                LogHelper.Error("RoleController TestLog", ex);
+            }
+            return tmp;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using System.Web;
+﻿using Eds.Infrastructure;
 using System.Web.Mvc;
 
 namespace WebApi
@@ -7,7 +7,7 @@ namespace WebApi
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new  ExceptionLogerFilterAttribute());
         }
     }
 }

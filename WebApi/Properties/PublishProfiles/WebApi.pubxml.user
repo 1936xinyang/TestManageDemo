@@ -94,10 +94,10 @@
       <publishTime>05/23/2019 19:29:21</publishTime>
     </File>
     <File Include="bin/Eds.Infrastructure.dll">
-      <publishTime>05/26/2019 15:05:45</publishTime>
+      <publishTime>06/20/2019 16:58:52</publishTime>
     </File>
     <File Include="bin/Eds.Infrastructure.pdb">
-      <publishTime>05/26/2019 15:05:45</publishTime>
+      <publishTime>06/20/2019 16:58:52</publishTime>
     </File>
     <File Include="bin/Eds.IRepository.dll">
       <publishTime>05/23/2019 19:29:21</publishTime>
@@ -116,6 +116,9 @@
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
       <publishTime>03/29/2018 14:51:46</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>05/04/2017 10:51:31</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>08/15/2017 14:00:26</publishTime>
@@ -205,10 +208,10 @@
       <publishTime>08/15/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/WebApi.dll">
-      <publishTime>05/26/2019 15:24:33</publishTime>
+      <publishTime>06/20/2019 18:11:36</publishTime>
     </File>
     <File Include="bin/WebApi.pdb">
-      <publishTime>05/26/2019 15:24:33</publishTime>
+      <publishTime>06/20/2019 18:11:36</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/15/2017 14:00:18</publishTime>
@@ -367,7 +370,7 @@
       <publishTime>08/15/2017 14:00:04</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/26/2019 14:53:14</publishTime>
+      <publishTime>06/20/2019 18:11:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

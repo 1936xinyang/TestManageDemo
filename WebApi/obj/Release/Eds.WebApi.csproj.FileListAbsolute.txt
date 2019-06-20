@@ -43,8 +43,5 @@ E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Release\Eds.WebApi.csproj.CopyComp
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Release\WebApi.dll
 E:\Net+\设计模式\WebApi\WebApi\WebApi\obj\Release\WebApi.pdb
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Web.Http.Cors.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Web.Http.xml
 E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\System.Web.Http.Cors.xml
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
-E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\zh-Hans\System.Web.Http.resources.dll
+E:\Net+\设计模式\WebApi\WebApi\WebApi\bin\log4net.dll

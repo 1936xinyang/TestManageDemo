@@ -14,6 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebApi\Eds.WebApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="System.Net.Http.Formatting">
       <HintPath>..\WebApi\bin\System.Net.Http.Formatting.dll</HintPath>
     </Reference>

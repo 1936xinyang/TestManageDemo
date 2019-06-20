@@ -1677,6 +1677,64 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Eds.Data/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Eds.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eds.Data.dll": {}
+        }
+      },
+      "Eds.Infrastructure/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Eds.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eds.Infrastructure.dll": {}
+        }
+      },
+      "Eds.IRepository/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Eds.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eds.IRepository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eds.IRepository.dll": {}
+        }
+      },
+      "Eds.Repository/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Eds.Data": "1.0.0",
+          "Eds.IRepository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eds.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eds.Repository.dll": {}
+        }
+      },
+      "Eds.WebApi/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Eds.Data": "1.0.0",
+          "Eds.IRepository": "1.0.0",
+          "Eds.Infrastructure": "1.0.0",
+          "Eds.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eds.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eds.WebApi.dll": {}
+        }
       }
     }
   },
@@ -5705,10 +5763,36 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Eds.Data/1.0.0": {
+      "type": "project",
+      "path": "../Eds.Data/Eds.Data.csproj",
+      "msbuildProject": "../Eds.Data/Eds.Data.csproj"
+    },
+    "Eds.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Eds.Infrastructure/Eds.Infrastructure.csproj",
+      "msbuildProject": "../Eds.Infrastructure/Eds.Infrastructure.csproj"
+    },
+    "Eds.IRepository/1.0.0": {
+      "type": "project",
+      "path": "../WebApi/Eds.IRepository/Eds.IRepository.csproj",
+      "msbuildProject": "../WebApi/Eds.IRepository/Eds.IRepository.csproj"
+    },
+    "Eds.Repository/1.0.0": {
+      "type": "project",
+      "path": "../WebApi/Eds.Repository/Eds.Repository.csproj",
+      "msbuildProject": "../WebApi/Eds.Repository/Eds.Repository.csproj"
+    },
+    "Eds.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../WebApi/Eds.WebApi.csproj",
+      "msbuildProject": "../WebApi/Eds.WebApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Eds.WebApi >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.7.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "xunit >= 2.3.1",
@@ -5746,7 +5830,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Net+\\设计模式\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj": {
+              "projectPath": "E:\\Net+\\设计模式\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

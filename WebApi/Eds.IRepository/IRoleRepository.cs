@@ -13,6 +13,8 @@ namespace Eds.IRepository
         List<Role> GetRoles();
         int? AddRole(Role role);
 
+        int? AddRoleList(List<Role> roles);
+
         int? UpdateRole(Role role);
 
         int? DeleteRole(int id);

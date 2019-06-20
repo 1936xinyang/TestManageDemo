@@ -38,7 +38,25 @@ namespace WebApi.Controllers
             int? result= roleRepository.AddRole(role);
             return result;
         }
-
+        // 批量操作
+        [HttpPost]
+        public int? PostRoleList([FromBody] List<Role> roleList, string temp1, string temp2, string temp3)
+        {
+            int? result = roleRepository.AddRoleList(roleList);
+            return result;
+        }
+        [Route("RoleList")]
+        [HttpPost]
+        public int? PostRoleList()
+        {
+            List<Role> roles = new List<Role> {
+                new Role{  ID=21, RoleName="t1"},
+                new Role{ ID=22,RoleName="t2" },
+                new Role{ ID=23,RoleName="t3" }
+            };
+            int? result = roleRepository.AddRoleList(roles);
+            return result;
+        }
         // PUT: api/Role/5
         [Route("ModifyRole")]
         public int? Put(Role role)

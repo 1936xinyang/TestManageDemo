@@ -3,6 +3,7 @@ using Eds.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Transactions;
 
 namespace Eds.Repository
 {
@@ -71,6 +72,40 @@ namespace Eds.Repository
             return result;
         }
 
+        /// <summary>
+        /// 批量添加
+        /// </summary>
+        /// <param name="roles"></param>
+        /// <returns></returns>
+        public int? AddRoleList(List<Role> roles)
+        {
+            int? result = 0;
+            EdsDbContext db = new EdsDbContext();
+            try
+            {
+                //开启事务
+                using (TransactionScope ts = new TransactionScope())
+                {
+                    roles.ForEach(role=> {
+                        db.Roles.Add(role);
+                    });
+                    db.SaveChanges();
+                    //提交数据
+                    ts.Complete();
+                }                
+            }
+            catch (Exception ex)
+            {
+                //LogHelper.Error(ex.ToString());
+                result = null;
+            }
+            finally
+            {
+                db.Dispose();
+            }
+            return result;
+        }
+
         public int? UpdateRole(Role role)
         {
             int? result = 0;
@@ -123,5 +158,7 @@ namespace Eds.Repository
             }
             return result;
         }
+
+        
     }
 }

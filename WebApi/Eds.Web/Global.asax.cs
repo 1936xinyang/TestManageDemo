@@ -1,4 +1,5 @@
-﻿using Eds.Web.DAL;
+﻿using Eds.Web.Configs;
+using Eds.Web.DAL;
 using Eds.Web.Entities;
 using Eds.Web.Models;
 using System;
@@ -36,7 +37,10 @@ namespace Eds.Web
             };
                 sysRoles.ForEach(s => context.SysRoles.Add(s));
                 context.SaveChanges();
-            }
+            };
+            //注册AutoMapper配置文件
+            AutoMapperConfig.RegisterMappings();
+
         }
     }
 }

@@ -5806,11 +5806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Net+\\设计模式\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj",
+      "projectUniqueName": "E:\\Net+\\Project\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj",
       "projectName": "Eds.WebApi.Tests",
-      "projectPath": "E:\\Net+\\设计模式\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj",
+      "projectPath": "E:\\Net+\\Project\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Net+\\设计模式\\WebApi\\WebApi\\Eds.WebApi.Tests\\obj\\",
+      "outputPath": "E:\\Net+\\Project\\WebApi\\WebApi\\Eds.WebApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5831,8 +5831,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\Net+\\设计模式\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj": {
-              "projectPath": "E:\\Net+\\设计模式\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj"
+            "E:\\Net+\\Project\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj": {
+              "projectPath": "E:\\Net+\\Project\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj"
             }
           }
         }

@@ -5776,13 +5776,13 @@
     },
     "Eds.IRepository/1.0.0": {
       "type": "project",
-      "path": "../WebApi/Eds.IRepository/Eds.IRepository.csproj",
-      "msbuildProject": "../WebApi/Eds.IRepository/Eds.IRepository.csproj"
+      "path": "../Eds.IRepository/Eds.IRepository.csproj",
+      "msbuildProject": "../Eds.IRepository/Eds.IRepository.csproj"
     },
     "Eds.Repository/1.0.0": {
       "type": "project",
-      "path": "../WebApi/Eds.Repository/Eds.Repository.csproj",
-      "msbuildProject": "../WebApi/Eds.Repository/Eds.Repository.csproj"
+      "path": "../Eds.Repository/Eds.Repository.csproj",
+      "msbuildProject": "../Eds.Repository/Eds.Repository.csproj"
     },
     "Eds.WebApi/1.0.0": {
       "type": "project",

@@ -310,12 +310,12 @@
       <Project>{bf014841-26fd-4a6c-86ab-1a2fe6bd51c8}</Project>
       <Name>Eds.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="Eds.IRepository\Eds.IRepository.csproj">
-      <Project>{c75f0b7d-4469-4ec7-8c60-1baded973f39}</Project>
+    <ProjectReference Include="..\Eds.IRepository\Eds.IRepository.csproj">
+      <Project>{C75F0B7D-4469-4EC7-8C60-1BADED973F39}</Project>
       <Name>Eds.IRepository</Name>
     </ProjectReference>
-    <ProjectReference Include="Eds.Repository\Eds.Repository.csproj">
-      <Project>{beb56b14-99ec-487d-bd7d-4611716c0f43}</Project>
+    <ProjectReference Include="..\Eds.Repository\Eds.Repository.csproj">
+      <Project>{BEB56B14-99EC-487D-BD7D-4611716C0F43}</Project>
       <Name>Eds.Repository</Name>
     </ProjectReference>
   </ItemGroup>

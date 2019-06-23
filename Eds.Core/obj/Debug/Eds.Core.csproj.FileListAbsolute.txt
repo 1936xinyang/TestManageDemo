@@ -25,3 +25,10 @@ E:\Net+\设计模式\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CoreCompil
 E:\Net+\设计模式\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CopyComplete
 E:\Net+\设计模式\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.dll
 E:\Net+\设计模式\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.pdb
+E:\Net+\Project\WebApi\WebApi\WebApi\Lib\Eds.Core.dll
+E:\Net+\Project\WebApi\WebApi\WebApi\Lib\Eds.Core.pdb
+E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csprojAssemblyReference.cache
+E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CoreCompileInputs.cache
+E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CopyComplete
+E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.dll
+E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.pdb

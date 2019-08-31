@@ -1,9 +1,11 @@
 ﻿using Eds.Data;
+using log4net;
 using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Reflection;
 using System.Transactions;
 using System.Web;
 using System.Web.Mvc;
@@ -12,6 +14,8 @@ namespace Eds.Web.Controllers
 {
     public class RoleController : Controller
     {
+        private ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType.Assembly, MethodBase.GetCurrentMethod().DeclaringType);
+
         // GET: Role
         //public ActionResult Index()
         //{
@@ -57,6 +61,7 @@ namespace Eds.Web.Controllers
         }
         public ActionResult Login()
         {
+            log.Info("登录前");
             ViewBag.LoginState = "登录前。。。";
             return View();
         }

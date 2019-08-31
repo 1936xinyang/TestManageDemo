@@ -40,3 +40,14 @@ E:\Net+\Project\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.csproj.Cor
 E:\Net+\Project\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.csproj.CopyComplete
 E:\Net+\Project\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.Repository.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.Repository.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.Data.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.IRepository.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.Data.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.Data.dll.config
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\bin\Debug\Eds.IRepository.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.csprojAssemblyReference.cache
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.csproj.CopyComplete
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Repository\obj\Debug\Eds.Repository.pdb

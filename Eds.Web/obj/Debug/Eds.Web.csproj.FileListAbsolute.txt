@@ -261,7 +261,6 @@ E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Web.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Web.pdb
 E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Common.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Data.dll
-E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Newtonsoft.Json.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Data.pdb
 E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Data.dll.config
 E:\Net+\Project\WebApi\WebApi\Eds.Web\bin\Eds.Common.pdb
@@ -270,3 +269,16 @@ E:\Net+\Project\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.csproj.CoreCompileInputs
 E:\Net+\Project\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.csproj.CopyComplete
 E:\Net+\Project\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\ApplicationInsights.config
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Web.dll.config
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Web.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Web.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Common.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Data.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Data.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Data.dll.config
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\bin\Eds.Common.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.csprojAssemblyReference.cache
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.csproj.CopyComplete
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Web\obj\Debug\Eds.Web.pdb

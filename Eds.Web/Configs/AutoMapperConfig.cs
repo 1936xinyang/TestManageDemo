@@ -16,7 +16,7 @@ namespace Eds.Web.Configs
 
             Mapper.Initialize(
                 x => x.CreateMap<Book, BookViewModel>()
-            .ForMember(dest => dest.Author, opts => opts.MapFrom(src => src.Author.Name))
+            .ForMember(dest => dest.Author, opts => opts.MapFrom(src => src.Author.Name)).ReverseMap()
 
 
             //y => y.CreateMap<PersonDTO, Person>()

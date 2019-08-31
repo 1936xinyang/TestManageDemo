@@ -50,5 +50,37 @@ namespace Eds.Web.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void Test()
+        {
+            ClassA cl = new ClassB();
+            string result=cl.Cod();
+            ClassA cl2 = new ClassC();
+            string result2 = cl2.Cod();
+            Console.ReadLine();
+        }
+    }
+
+    public class ClassA
+    {
+        public virtual string Cod()
+        {
+           return "A";
+        }
+    }
+    public class ClassB: ClassA
+    {
+        public virtual new string  Cod()
+        {
+            return "B";
+        }
+    }
+    public class ClassC : ClassA
+    {
+        public override  string Cod()
+        {
+            return "C";
+        }
     }
 }

@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj",
+        "projectName": "Eds.Data",
+        "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Infrastructure\\Eds.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Infrastructure\\Eds.Infrastructure.csproj",
+        "projectName": "Eds.Infrastructure",
+        "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Infrastructure\\Eds.Infrastructure.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj",
+        "projectName": "Eds.IRepository",
+        "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Repository\\Eds.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Repository\\Eds.Repository.csproj",
+        "projectName": "Eds.Repository",
+        "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Repository\\Eds.Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj"
+              },
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj",
+        "projectName": "Eds.WebApi.Tests",
+        "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.WebApi.Tests\\Eds.WebApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\86139\\.nuget\\packages\\",
+        "outputPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.WebApi.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86139\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.7.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Docs\\Projects\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\Projects\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj",
+        "projectName": "Eds.WebApi",
+        "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\WebApi\\Eds.WebApi.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Data\\Eds.Data.csproj"
+              },
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Infrastructure\\Eds.Infrastructure.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Infrastructure\\Eds.Infrastructure.csproj"
+              },
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.IRepository\\Eds.IRepository.csproj"
+              },
+              "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Repository\\Eds.Repository.csproj": {
+                "projectPath": "D:\\Docs\\Projects\\WebApi\\WebApi\\Eds.Repository\\Eds.Repository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

@@ -37,3 +37,15 @@ E:\Net+\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csproj.C
 E:\Net+\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csproj.CopyComplete
 E:\Net+\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.dll
 E:\Net+\Project\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.IRepository.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.IRepository.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.Data.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\EntityFramework.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.Data.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\Eds.Data.dll.config
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\EntityFramework.xml
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csprojAssemblyReference.cache
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.csproj.CopyComplete
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.IRepository\obj\Debug\Eds.IRepository.pdb

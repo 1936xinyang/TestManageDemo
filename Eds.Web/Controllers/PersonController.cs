@@ -15,6 +15,10 @@ namespace Eds.Web.Controllers
         {
             Book book = new Book { Author=new Author {  Name="Martin"}, Title="企业级应用"};
             var dest= AutoMapper.Mapper.Map<BookViewModel>(book);
+
+            var book2 = AutoMapper.Mapper.Map<Book>(dest);
+
+
             return View();
         }
     }

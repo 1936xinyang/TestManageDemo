@@ -10,3 +10,8 @@ E:\Net+\Project\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.csprojAssemblyRefer
 E:\Net+\Project\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.csproj.CoreCompileInputs.cache
 E:\Net+\Project\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Model\bin\Debug\Eds.Common.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Model\bin\Debug\Eds.Common.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.csprojAssemblyReference.cache
+D:\Docs\Projects\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Model\obj\Debug\Eds.Common.pdb

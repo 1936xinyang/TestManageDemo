@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "89327f8e2b42f44976b7ab0d940b1428c42f571d"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "Microsoft.NET.Test.Sdk": "15.7.0",
           "xunit": "2.3.1",
           "xunit.runner.visualstudio": "2.3.1",
+          "nunit.framework": "2.4.3.0",
           "System.Net.Http.Formatting": "5.2.7.0"
         },
         "runtime": {
@@ -354,16 +355,6 @@
           "System.Runtime.Extensions": "4.1.0",
           "System.Runtime.Handles": "4.0.1",
           "System.Runtime.InteropServices": "4.1.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "Newtonsoft.Json/9.0.1": {
@@ -522,20 +513,6 @@
           "System.Threading.Thread": "4.0.0",
           "System.Threading.ThreadPool": "4.0.10",
           "runtime.native.System": "4.0.0"
-        },
-        "runtimeTargets": {
-          "runtime/linux/lib/_._": {
-            "rid": "linux",
-            "assetType": "runtime"
-          },
-          "runtime/osx/lib/_._": {
-            "rid": "osx",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Diagnostics.TextWriterTraceListener/4.0.0": {
@@ -563,16 +540,6 @@
           "System.Runtime.Extensions": "4.1.0",
           "System.Threading": "4.0.11",
           "runtime.native.System": "4.0.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Diagnostics.Tracing/4.1.0": {
@@ -611,16 +578,6 @@
           "System.Runtime": "4.1.0",
           "System.Runtime.Extensions": "4.1.0",
           "System.Runtime.InteropServices": "4.1.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.IO/4.1.0": {
@@ -813,16 +770,6 @@
           "System.Runtime.InteropServices": "4.1.0",
           "System.Threading": "4.0.11",
           "runtime.native.System": "4.0.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Runtime.Loader/4.0.0": {
@@ -1061,14 +1008,16 @@
         }
       },
       "Eds.Infrastructure/1.0.0": {
+        "dependencies": {
+          "log4net": "1.2.13.0"
+        },
         "runtime": {
           "Eds.Infrastructure.dll": {}
         }
       },
       "Eds.IRepository/1.0.0": {
         "dependencies": {
-          "Eds.Data": "1.0.0",
-          "EntityFramework": "6.0.0.0"
+          "Eds.Data": "1.0.0"
         },
         "runtime": {
           "Eds.IRepository.dll": {}
@@ -1102,9 +1051,9 @@
           "Microsoft.Practices.Unity": "2.0.414.0",
           "System.Web.Http.Owin": "5.2.3.0",
           "System.Web.Http.Cors": "5.2.7.0",
+          "EntityFramework": "6.0.0.0",
           "Microsoft.Owin.Security.Cookies": "3.0.1.0",
           "System.Web.Http.WebHost": "5.2.3.0",
-          "log4net": "1.2.13.0",
           "Microsoft.Web.Infrastructure": "1.0.0.0",
           "System.Web.Razor": "3.0.0.0",
           "System.Web.WebPages.Razor": "3.0.0.0",
@@ -1114,6 +1063,14 @@
         },
         "runtime": {
           "WebApi.dll": {}
+        }
+      },
+      "nunit.framework/2.4.3.0": {
+        "runtime": {
+          "nunit.framework.dll": {
+            "assemblyVersion": "2.4.3.0",
+            "fileVersion": "2.4.3.0"
+          }
         }
       },
       "System.Net.Http.Formatting/5.2.7.0": {
@@ -1576,7 +1533,7 @@
     "System.Private.DataContractSerialization/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TgM5uU9N5wQVdaby3A5AJv+cTe84GCZOyn5c6sMgehnnw4i3i8Wa4JDR8sGvvJkRMqceChSeB3d6fkRqFXWdwA==",
+      "sha512": "sha512-lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
       "path": "system.private.datacontractserialization/4.1.1",
       "hashPath": "system.private.datacontractserialization.4.1.1.nupkg.sha512"
     },
@@ -1779,7 +1736,7 @@
     "System.Xml.XmlSerializer/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yQ+j8lyhi0YmqSUXUVlSZfud7/STiYojIKzHlP1Myr4EOVu4Ii2ov0z13W7SGZMmfllnDlPoODUg1fPM3i5EAw==",
+      "sha512": "sha512-FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
       "path": "system.xml.xmlserializer/4.0.11",
       "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
     },
@@ -1875,6 +1832,11 @@
     },
     "Eds.WebApi/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "nunit.framework/2.4.3.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

@@ -32,3 +32,9 @@ E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CoreCompileInpu
 E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CopyComplete
 E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.dll
 E:\Net+\Project\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.pdb
+D:\Docs\Projects\WebApi\WebApi\WebApi\Lib\Eds.Core.dll
+D:\Docs\Projects\WebApi\WebApi\WebApi\Lib\Eds.Core.pdb
+D:\Docs\Projects\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csprojAssemblyReference.cache
+D:\Docs\Projects\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.csproj.CopyComplete
+D:\Docs\Projects\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.dll
+D:\Docs\Projects\WebApi\WebApi\Eds.Core\obj\Debug\Eds.Core.pdb

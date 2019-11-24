@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache\HttpContextCacheAdapter.cs" />
     <Compile Include="Cache\ICacheStorage.cs" />
     <Compile Include="Cache\NullObjectCachingAdapter.cs" />
     <Compile Include="Configuration\ApplicationSettingsFactory.cs" />
